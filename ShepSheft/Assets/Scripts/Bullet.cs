@@ -11,6 +11,7 @@ public class Bullet : MonoBehaviour
     void OnCollisionEnter (Collision col)
     {
         if (sticky == true)
+
             Destroy(GetComponent<Rigidbody>());
     }
 
